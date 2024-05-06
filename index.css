@@ -1,0 +1,580 @@
+*{
+    margin: 0%;
+}
+.body-container{
+    background-image: url(image/pexels-moose-photos-170195-1037992.jpg);
+    padding: 170px;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.ref-container a{
+    float: right;
+    position: relative;
+    bottom: 165px;
+    left: 160px;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ref-container a:hover{
+    background-color: rgb(223, 112, 112);
+    border-radius: 30px;
+}
+.body-container img{
+    width: 30%;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    right: 0px;
+    bottom: 70px;
+}
+.body-container h3{
+    position: relative;
+    bottom: 155px;
+    right: 140px;
+    font-style: italic;
+    color: #4dffff;
+}
+.body-container h1{
+    font-size: 50px;
+    position: relative;
+    right: 30px;
+}
+.parent-container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+    text-align: center;
+    padding: 10px;
+}
+.parent-container p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    position: relative;
+    right: 75px;
+}
+.parent-container button{
+    position: relative;
+    top: 20px;
+    right: 130px;
+    padding: 10px 25px 10px 25px;
+    font-size: x-small;
+    border-radius: 20px;
+    border: 0px solid;
+    background-color: rgb(223, 112, 112);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+button:hover{
+    background-color: #4dffff;
+}
+.button:active{
+    color: black;
+}
+.h3-container{
+    background-color: white;
+    text-align: center;
+    font-family: monospace;
+    padding: 10px;
+    font-size: large;
+}
+.h3-container a{
+    padding: 25px;
+    text-decoration: none;
+    font-family: monospace;
+}
+.h3-container a:hover{
+    color: blue;
+}
+.h1-container{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    font-weight: 100px;
+}
+.father-container{
+    position: relative;
+    margin-left: 35px;
+    bottom: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.father-container h3{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+.father-container p{
+    color: rgba(0, 0, 0, 0.726);
+    position: relative;
+    top: 10px;
+}
+.father-container a{
+    text-decoration: none;
+}
+.fth{
+    margin-left: 950px;
+    position: relative;
+    bottom: 425px;
+}
+.fth img{
+    width: 100%;
+}
+.fth :hover{
+    color: rgb(242, 79, 79);
+}
+.std{
+    margin-left: 630px;
+    position: relative;
+    bottom: 670px;
+}
+.std img{
+    width: 50%;
+}
+.std :hover{
+    color: rgb(242, 79, 79);
+}
+.utd{
+    margin-left: 950px;
+    position: relative;
+    bottom: 625px;
+}
+.utd img{
+    width: 100%;
+}
+.utd a:hover{
+    color: rgb(242, 79, 79);
+}
+.ktd{
+    margin-left: 630px;
+    position: relative;
+    bottom: 863px;
+}
+.ktd img{
+    width: 50%;
+}
+.ktd a:hover{
+    color: rgb(242, 79, 79);
+}
+hr{
+    border: none;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.461);
+    position: relative;
+    bottom: 850px;
+    width: 70%;
+    left: 20px;
+}
+h2{
+    position: relative;
+    bottom: 850px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.hr-container img{
+    width: 19%;
+    height: 20%;
+    position: relative;
+    left: 53%;
+}
+.hr-container{
+    position: relative;
+    bottom: 850px;
+}
+.hr-container h3{
+    position: relative;
+    bottom: 150px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.925);
+    text-decoration: none;
+}
+.hr-container p{
+    position: relative;
+    bottom: 130px;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.767);
+}
+.hr-container a{
+    text-decoration: none;
+}
+.hr-container p:hover{
+    color: rgba(0, 0, 0, 0.386);
+}
+#hr1{
+    border: none;
+    height: 0.5px;
+    background: rgba(0, 0, 0, 0.461);
+    position: relative;
+    bottom: 890px;
+    
+}
+.hr1-container img{
+    width: 19%;
+    height: 20%;
+    position: relative;
+    left: 53%;
+    bottom: 862px;
+}
+.hr1-container h3{
+    position: relative;
+    bottom: 1020px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.925);
+    text-decoration: none;
+}
+.hr1-container p{
+    position: relative;
+    bottom: 1000px;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.767);
+}
+.hr1-container a{
+    text-decoration: none;
+}
+.hr1-container p:hover{
+    color: rgba(0, 0, 0, 0.386);
+}
+#hr2{
+    border: none;
+    height: 0.5px;
+    background: rgba(0, 0, 0, 0.461);
+    position: relative;
+    bottom: 900px;
+}
+.hr2-container{
+    width: 70%;
+    position: relative;
+    bottom: 860px;
+    margin-left: 20px;
+}
+.hr2-container img{
+    width: 25%;
+    position: relative;
+    left: 75%;
+    top: 20px;
+}
+.hr2-container h3{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.925);
+    text-decoration: none;
+    bottom: 100px;
+}
+.hr2-container p{
+    position: relative;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.767);
+    bottom: 80px;
+}
+.hr2-container a{
+    text-decoration: none;
+}
+.hr2-container p:hover{
+    color: rgba(0, 0, 0, 0.386);
+}
+#hr3{
+    border: none;
+    height: 0.5px;
+    background: rgba(0, 0, 0, 0.461);
+    position: relative;
+    bottom: 870px;
+}
+.hr4-container{
+    width: 70%;
+    position: relative;
+    bottom: 850px;
+    margin-left: 20px;
+}
+.hr4-container img{
+    width: 28%;
+    position: relative;
+    left: 72%;
+    bottom: 70px;
+}
+.hr4-container h3{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.925);
+    text-decoration: none;
+    top: 10px;
+}
+.hr4-container p{
+    position: relative;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.767);
+    top: 30px;
+}
+.hr4-container a{
+    text-decoration: none;
+}
+.hr4-container p:hover{
+    color: rgba(0, 0, 0, 0.386);
+}
+#hr5{
+    border: none;
+    height: 0.5px;
+    background: rgba(0, 0, 0, 0.461);
+}
+.hr5-container{
+    width: 100%;
+    position: relative;
+    background: url(image/pexels-elevate-1267697.jpg);
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.783);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 250px;
+    bottom: 800px;
+    color: wheat;
+}
+.hr5-container button{
+    position: relative;
+    bottom: 235px;
+    left: 30px;
+    padding: 5px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hr5-container h3{
+    position: relative;
+    bottom: 200px;
+    margin-left: 30px;
+    font-size: x-large;
+}
+.hr5-container p{
+    position: relative;
+    bottom: 150px;
+    margin-left: 30px;
+    font-size: small;
+}
+.hr5-container button:hover{
+    background-color: blue;
+    border: 1px solid blue;
+}
+.hr6-container{
+    width: 70%;
+    position: relative;
+    bottom: 750px;
+    margin-left: 20px;
+}
+.hr6-container img{
+    width: 28%;
+    position: relative;
+    left: 73%;
+    top: 15px;
+}
+.hr6-container h3{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.925);
+    text-decoration: none;
+    bottom: 150px;
+}
+.hr6-container a{
+    text-decoration: none;
+}
+.hr6-container p{
+    position: relative;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.767);
+    bottom: 130px;
+}
+.hr6-container p:hover{
+    color: rgba(0, 0, 0, 0.386);
+}
+#h6{
+    border: none;
+    height: 0.5px;
+    background: rgba(0, 0, 0, 0.461);
+    bottom: 740px;
+}
+.hr7-container{
+    width: 70%;
+    position: relative;
+    bottom: 720px;
+    margin-left: 20px;
+}
+.hr7-container img{
+    width: 26%;
+    position: relative;
+    left: 73%;
+    top: 20px;
+}
+.hr7-container h3{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.925);
+    text-decoration: none;
+    bottom: 120px;
+}
+.hr7-container p{
+    position: relative;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.767);
+    bottom: 95px;
+}
+.hr7-container a{
+    text-decoration: none;
+}
+.hr7-container p:hover{
+     color: rgba(0, 0, 0, 0.386);
+} 
+#hr7{
+    border: none;
+    height: 0.5px;
+    background: rgba(0, 0, 0, 0.461);
+    bottom: 720px;
+}
+.heading{
+    position: relative;
+    bottom: 650px;
+    padding: 60px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+.heading h1{
+    position: relative;
+    right: 300px;
+    top: 40px;
+    font-size: 300%;
+}
+.update{
+    position: relative;
+    bottom: 80px;
+    left: 50px;
+}
+input{
+    position: relative;
+    bottom: 55px;
+    display: inline-block;
+    width: 25%;
+    left: 65px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 3px solid pink;
+}
+.heading button{
+    position: relative;
+    left: 66px;
+    bottom: 55px;
+    padding: 15px 22px;
+    border-radius: 10px;
+    font-size: x-small;
+    color: white;
+    border: 1px solid pink;
+    background-color: black;
+}
+.heading button:hover{
+    background-color: red;
+}
+.heading h6{
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+}
+input:focus{
+    background-color: pink;
+}
+footer{
+    background-color: rgb(230, 81, 106);
+    position: relative;
+    bottom: 560px;
+}
+
+.icon-container a{
+    float: right;
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+    padding: 9px;
+}
+#btn10{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 0px solid black;
+    position: relative;
+    bottom: 90px;
+    left: 30px;
+}
+#btn10:hover{
+    background-color: aqua;
+}
+.ref9 a{
+    text-decoration: none;
+    display: block;
+    width: 15%;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 200px;
+    padding: 5px;
+    color: black;
+    top: 10px;
+}
+.ref2{
+    width: 15%;
+    position: relative;
+    left: 550px;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 120px;
+}
+.ref2 a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.ref3{
+    width: 15%;
+    float: right;
+    position: relative;
+    bottom: 280px;
+    right: 200px;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ref3 a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+#ht10{
+    border: none;
+    height: 1px;
+    background: black;
+    position: relative;
+    bottom: 700px;
+    width: 80%;
+    left: 70px;
+}
+footer h3{
+    color: #4dffff;
+    font-style: italic;
+    position: relative;
+    margin-left: 45px;
+    position: relative;
+    top: 20px;
+}
+footer h6{
+    position: relative;
+    bottom: 65px;
+    margin-left: 125px;
+}
